@@ -29,7 +29,7 @@ let package = Package(
 //            .package(name: "R.swift.Library", url: "https://github.com/mac-cain13/R.swift.Library", .upToNextMinor(from: "5.1.0")),
         .package(name: "JWTDecode", url: "https://github.com/auth0/JWTDecode.swift.git", from: "2.4.1"),
 //            .package(name: "Lottie", url: "https://github.com/airbnb/lottie-ios.git", from: "3.1.6"),
-            .package(name: "CryptoSwift", url: "https://github.com/krzyzanowskim/CryptoSwift.git", from: "1.3.1")    ],
+            .package(name: "CryptoSwift", url: "https://github.com/krzyzanowskim/CryptoSwift.git", from: "1.3.1")],
     targets: [
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
         // Targets can depend on other targets in this package, and on products in packages which this package depends on.
